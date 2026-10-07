@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background: lightsteelblue; display: flex; justify-content: center; padding: 40px 15px; }
+.card { background: white; width: 340px; padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px gray; }
+h2 { text-align: center; color: navy; margin-top: 0; }
+label { font-size: 14px; font-weight: bold; color: darkslategray; }
+input { width: 100%; padding: 10px; margin: 4px 0 10px; border: 1px solid lightgray; border-radius: 6px; box-sizing: border-box; }
+input:focus { outline: none; border-color: royalblue; }
+button { width: 100%; padding: 11px; background: navy; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 15px; }
+button:hover { background: royalblue; }
+#result { margin-top: 15px; border-radius: 6px; text-align: center; line-height: 1.8; }
+#result.pass { padding: 12px; background: honeydew; color: green; border: 1px solid green; }
+#result.fail { padding: 12px; background: mistyrose; color: red; border: 1px solid red; }
